@@ -1,0 +1,1149 @@
+body{
+    background:rgb(253, 250, 250);
+  }
+
+  #main-content {
+    position: relative; /* Ajusta según sea necesario */
+    top: 190px; /* Prueba con valores negativos para subir el contenido */
+    /* O bien */
+    margin-top: 10px; /* Ajusta con un margen negativo para subir el contenido */
+  }
+
+#asado1{
+    
+    position:absolute;
+    left:-30px;
+    top:0px;
+    width:40px;
+    height:40px;
+    transform:rotate(45deg);
+    animation:b 6s infinite;
+  }
+  #asado2{
+    position:absolute;
+    left:200px;
+    top:-25px;
+    width:40px;
+    height:40px;
+    transform:rotate(45deg);
+    animation:a 6s infinite;
+  }
+  #asado3{
+    position:absolute;
+    left:585px;
+    top:5px;
+    width:40px;
+    height:40px;
+    transform:rotate(45deg);
+    animation:a 6s infinite;
+  }
+  #asado4{
+    position:absolute;
+    left:385px;
+    top:90px;
+    width:40px;
+    height:40px;
+    transform:rotate(45deg);
+    animation:b 6s infinite;
+  }
+  #asado5{
+    position:absolute;
+    left:60px;
+    top:140px;
+    width:25px;
+    height:25px;
+    transform:rotate(45deg);
+    animation:a 6s infinite;
+  }
+  #asado6{
+    position:absolute;
+    left:500px;
+    top:-25px;
+    width:25px;
+    height:25px;
+    transform:rotate(45deg);
+    animation:a 6s infinite;
+  }
+  #asado7{
+    position:absolute;
+    left:60px;
+    top:-55px;
+    width:25px;
+    height:25px;
+    transform:rotate(45deg);
+    animation:b 6s infinite;
+  }
+  #asado8{
+    position:absolute;
+    left:530px;
+    top:130px;
+    width:25px;
+    height:25px;
+    transform:rotate(45deg);
+    animation:a 6s infinite;
+  }
+
+  #asado9 {
+    position: absolute;
+    left: -30px;
+    top: 0px;
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg);
+    animation: b 6s infinite;
+}
+
+#asado10 {
+    position: absolute;
+    left: 200px;
+    top: -25px;
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg);
+    animation: a 6s infinite;
+}
+
+
+  
+
+  @keyframes a{
+    0%{
+      background:transparent;
+    }
+    50%{
+      background:darkorange;
+    }
+    100%{
+      background:transparent;
+    }
+  }
+  @keyframes b{
+    0%{
+      background:darkorange;
+    }
+    50%{
+      background:transparent;
+    }
+    100%{
+      background:darkorange;
+    }
+  }
+  #div1{
+    position:absolute;
+    left:calc(50% - 300px);
+    top:calc(50% - 150px);
+    width:600px;
+    height:100px;
+    border:20px solid rgb(60, 60, 60);
+    border-radius:100px;
+
+  }
+  #div2{
+    position:absolute;
+    width:590px;
+    height:90px;
+    border:5px solid orange;
+    border-radius:100px;
+    background:orange;
+    transition:.6s;
+    
+    
+  }
+  #img1{
+    position:absolute;
+    left:40px;
+    top:10px;
+    width:60px;
+  }
+  #img2{
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:60px;
+  }
+  #img3{
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:60px;
+  }
+  #img4 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 60px;
+}
+
+
+  #home1{
+    position:absolute;
+    left:150px;
+    width:80px;
+    height:80px;
+    border:5px solid orange;
+    border-radius:100px;
+    background:orange;
+    transition:.6s;
+
+  }
+  #home1:hover{
+    height:250px;
+  }
+  #home1:hover > #home1{
+    height:180px;
+    border:5px solid orange;
+  }
+  #homee1{
+    position:absolute;
+    top:-5px;
+    left:75px;
+    width:40px;
+    height:80px;
+    border:5px solid orange;
+    border-radius:100px;
+    background:orange;
+    transition:.6s;
+  }
+  #menu{
+    position:absolute;
+    left:300px;
+    width:80px;
+    height:80px;
+    border:5px solid orange;
+    border-radius:100px;
+    background:orange;
+    transition:.6s;
+  }
+  #menu:hover{
+    height:200px;
+  }
+  #menu:hover > #menu1{
+    height:230px;
+  }
+  #menu1{
+    position:absolute;
+    top:-5px;
+    left:-25px;
+    width:25px;
+    height:80px;
+    border:5px solid orange;
+    border-radius:100px;
+    background:orange;
+    transition:.6s;
+  }
+  #ordenar{
+    position:absolute;
+    left:450px;
+    width:80px;
+    height:80px;
+    border:5px solid orange;
+    border-radius:100px;
+    background:orange;
+    transition:.6s;
+  }
+  #ordenar:hover{
+    height:200px;
+  }
+  #ordenar:hover > #ordenar1{
+    height:200px;
+  }
+  #ordenar:hover > #ordenar2{
+    height:200px;
+  }
+  #ordenar1{
+    position:absolute;
+    top:-5px;
+    left:-50px;
+    width:40px;
+    height:80px;
+    border:5px solid orange;
+    border-radius:100px;
+    background:orange;
+    transition:.6s;
+  }
+  #ordenar2{
+    position:absolute;
+    top:-5px;
+    left:75px;
+    width:25px;
+    height:80px;
+    border:5px solid orange;
+    border-radius:100px;
+    background:orange;
+    transition:.6s;
+  }
+
+
+
+
+
+  #boton1{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size: 15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+
+  #home1:hover > #boton1{
+    top:90px;
+    color:black;
+    background: #FF0000; 
+    padding-bottom:5px;
+  }
+  #boton2{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #home1:hover > #boton2{
+    top:140px;
+    color:black;
+    background:dimgrey;
+    padding-bottom:5px;
+  }
+  #boton3{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #home1:hover > #boton3{
+    top:190px;
+    color:black;
+    background:dimgrey;
+    padding-bottom:5px;
+  }
+  #boton4{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #menu:hover > #boton4{
+    top:90px;
+    color:black;
+    background:dimgrey;
+    padding-bottom:5px;
+  }
+  #boton5{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #menu:hover > #boton5{
+    top:140px;
+    color:black;
+    background:dimgrey;
+    padding-bottom:5px;
+  }
+  #boton6{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #menu:hover > #boton6{
+    top:90px;
+    color:black;
+    background:dimgrey;
+    padding-bottom:5px;
+  }
+  #boton7{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #ordenar:hover > #boton7{
+    top:140px;
+    color:black;
+    background:dimgrey;
+    padding-bottom:5px;
+  }
+  #boton8{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #ordenar:hover > #boton8{
+    top:190px;
+    color:black;
+    background:dimgrey;
+    padding-bottom:5px;
+  }
+
+  
+  #boton9{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #ordenar:hover > #boton9{
+    top:140px;
+    color:black;
+    background:dimgrey;
+    padding-bottom:5px;
+  }
+  #boton10{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #ordenar:hover > #boton10{
+    top:190px;
+    color:black;
+    background:dimgrey;
+    padding-bottom:5px;
+  }
+
+
+
+/* Estilos para el banner */
+.banner {
+  background-image: url('../assets/banner.jpg'); /* Ruta a tu imagen de banner */
+  background-size: cover;
+  background-position: center; /* Centra la imagen del banner */
+  height: 800px; /* Altura del banner */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-size: 36px; /* Tamaño de fuente del texto del banner */
+  padding: 20px;
+  margin-bottom: 30px; /* Ajusta el valor según sea necesario */
+  border: 2px solid orange; /* Borde naranja de 5px alrededor del banner */
+  border-radius: 15px; /* Redondea las esquinas del banner */
+}
+
+/* Estilo general para los banners */
+.bannertotal {
+    background-color: black; /* Fondo negro */
+    color: #ffd500; /* Color del texto rojo */
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 2px solid #FF0000; /* Borde naranja */
+  }
+
+/* Efecto de animación de fuego */
+@keyframes fire {
+  0% {
+      text-shadow: 0 0 2px #FF0000, 0 0 4px #FF0000, 0 0 6px #FF0000;
+      transform: translate(0, 0);
+  }
+  50% {
+      text-shadow: 0 0 20px #FF0000, 0 0 40px #FF0000, 0 0 60px #FF0000;
+      transform: translate(0, -20px);
+  }
+  100% {
+      text-shadow: 0 0 2px #FF0000, 0 0 4px #FF0000, 0 0 6px #FF0000;
+      transform: translate(0, 0);
+  }
+}
+
+/* Estilos específicos para los elementos de texto dentro del banner */
+
+/* Efecto de fuego para <h1> */
+.bannertotal h1 {
+  font-size: 48px; /* Tamaño del texto del título */
+  font-weight: bold; /* Texto en negrita */
+  color: #FF0000; /* Color del texto rojo para el efecto de fuego */
+  animation: fire 2s infinite alternate;
+  margin: 0; /* Ajustar margen según sea necesario */
+  
+}
+
+/* Efecto de fuego para <h2> */
+.bannertotal h2 {
+  font-size: 36px; /* Tamaño del texto del subtítulo */
+  font-weight: bold; /* Texto en negrita */
+  color: #FF0000; /* Color del texto rojo para el efecto de fuego */
+  animation: fire 2s infinite alternate;
+  margin: 0; /* Ajustar margen según sea necesario */
+}
+
+/* Efecto de fuego para <p> */
+.bannertotal p {
+  font-size: 18px; /* Tamaño del texto del párrafo */
+  color: #FF0000; /* Color del texto rojo para el efecto de fuego */
+  animation: fire 2s infinite alternate;
+  margin: 0; /* Ajustar margen según sea necesario */
+}
+
+
+/* Estilos del banner */
+.love-banner {
+  background-color: #f2f2f2;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  border-top: 2px solid #ccc;
+  margin-top: 20px; /* Espacio entre el banner de Google Maps y este banner */
+  border-radius: 15px; /* Redondea las esquinas del banner */
+  margin-bottom: 20px; /* Espacio inferior para separar del contenido siguiente */
+  border: 2px solid #06ecfe; /* Borde con el color #06ecfe */
+  padding-bottom: 20px; /* Espacio entre el texto y el borde inferior */
+  position: relative; /* Para posicionar el pulso del corazón */
+  overflow: hidden; /* Asegura que el pulso del corazón no se desborde */
+  animation: slideIn 1s ease-out, glow 2s ease-in-out infinite; /* Añadido efecto de entrada y resplandor */
+}
+
+/* Estilos de la imagen del corazón */
+.love-banner .heart-icon {
+  vertical-align: middle; /* Alinea la imagen con el texto */
+  width: 20px; /* Ajusta el tamaño de la imagen según sea necesario */
+  height: auto;
+  margin: 0 5px; /* Espacio alrededor de la imagen */
+  animation: pulse 1.5s infinite; /* Animación de pulso */
+}
+
+/* Animación de pulso del corazón */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2); /* Aumenta el tamaño del corazón */
+    opacity: 0.8; /* Reduce la opacidad para un efecto más suave */
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Animación de entrada del banner */
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Animación de resplandor */
+@keyframes glow {
+  0% {
+    text-shadow: 0 0 5px #06ecfe, 0 0 10px #06ecfe, 0 0 15px #06ecfe, 0 0 20px #06ecfe;
+  }
+  50% {
+    text-shadow: 0 0 10px #06ecfe, 0 0 20px #06ecfe, 0 0 30px #06ecfe, 0 0 40px #06ecfe;
+  }
+  100% {
+    text-shadow: 0 0 5px #06ecfe, 0 0 10px #06ecfe, 0 0 15px #06ecfe, 0 0 20px #06ecfe;
+  }
+}
+
+
+
+
+
+.banner-final {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  border: 2px solid orange; /* Cambiado a border-top para mayor visibilidad */
+  margin-bottom: 1px; /* Espacio inferior para separar del contenido siguiente */
+}
+
+
+
+.banner-item {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.reservas-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border: 2px solid #0f0f0f; /* Borde inicial */
+  border-radius: 5px;
+  color: #000; /* Color inicial del texto */
+  transition: color 0.3s, border-color 0.3s; /* Transiciones suaves */
+  margin-top: 10px; /* Ajusta este valor según sea necesario para mover el botón hacia abajo */
+
+}
+
+.reservas-btn:hover {
+  color: #ff6600; /* Cambio de color al pasar el cursor */
+  border-color: #ff6600; /* Cambia el color del borde al pasar el cursor */
+}
+
+.reservas-link {
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  color: inherit; /* Hereda el color del texto del elemento padre */
+  transition: color 0.3s ease; /* Transición suave del color al pasar el cursor */
+}
+
+.reservas-link:hover {
+  color: #ff6600; /* Cambio de color al pasar el cursor */
+}
+
+
+
+.banner-contact {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.banner-contact p {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-contact p img {
+  max-width: 70px; /* Reducido el tamaño de la imagen */
+  margin-right: 5px;
+}
+
+
+
+.address-info {
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 50px; /* Ajusta el margen izquierdo automáticamente */
+  margin-right: auto; /* Ajusta el margen derecho automáticamente */
+  width: fit-content; /* Ajusta el ancho del contenedor al contenido */
+}
+
+.banner-address-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.address-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+
+.phone-container {
+  display: flex; /* Usa flexbox para manejar el alineamiento y distribución */
+  justify-content: flex-end; /* Alinea el contenedor de las redes sociales a la derecha */
+  padding: 10px; /* Espacio alrededor del contenedor */
+  margin-top: -100px; /* Ajusta este valor según sea necesario para subir el contenedor */
+  margin-left: 80px; /* Ajusta este valor según sea necesario para mover el contenedor hacia la derecha */
+
+}
+
+.phone {
+  width: 320px;
+  height: 260px;
+  margin: fixed;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  justify-content: center;
+  margin-top: -30px;
+}
+.phone::before {
+  content: '';
+  position: absolute;
+  width: 84%;
+  height: 0px;
+  bottom: -10px;
+  box-shadow: 0 0 25px 9px rgba(255, 0, 0, 0.33), 50px 10px 25px 8px rgba(18, 255, 0, 0.33), -40px 8px 25px 9px rgba(242, 255, 0, 0.33);
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.phone::after {
+  content: '';
+}
+.phone_content {
+  filter: contrast(20);
+  width: 100%;
+  background-color: white;
+  overflow: hidden;
+  position: absolute;
+}
+.phone_bottom {
+  width: 100%;
+  height: 66px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  filter: blur(10px);
+}
+
+  .phone input[type="radio"] {
+    display: none;
+  }
+
+.phone .phone-label {
+  cursor: pointer;
+  display: flex;
+  width: 33%;
+  height: 66px;
+  position: relative;
+  z-index: 2;
+  align-items: center;
+  justify-content: center;
+
+}
+.phone .phone-label > img {
+  width: 25px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  z-index: 3;
+  transition: 200ms 100ms cubic-bezier(0.14, -0.08, 0.74, 1.4);
+}
+.phone .phone-label::before {
+  content: '';
+  position: absolute;
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  background: black;
+  position: absolute;
+  top: 152px;
+  z-index: 1;
+  border-radius: 50%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: 200ms cubic-bezier(0.14, -0.08, 0.74, 1.4);
+  box-shadow: 0px 82px 20px 0px rgba(128, 128, 128, 0.29);
+}
+
+.indicator { 
+  width: 70px;
+  height: 70px;
+  background-image: linear-gradient(0deg, #f7b0b0, rgba(183, 255, 154, 0)), linear-gradient(0deg, rgba(158, 255, 151, 0.75), rgba(183, 255, 154, 0)), linear-gradient(0deg, #b4fffb, rgba(183, 255, 154, 0));
+  background-size: cover;
+  background-position: 0 10px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: -42px;
+  right: 0;
+  margin: auto;
+  transition: 200ms cubic-bezier(0.14, -0.08, 0.74, 1.4);
+}
+
+#s1:checked ~ [for="s1"] > img {
+  top: -85px;
+}
+#s1:checked ~ .circle,
+#s1:checked ~ div div .indicator {
+  left: -66%;
+}
+
+#s2:checked ~ [for="s2"] > img {
+  top: -85px;
+}
+#s2:checked ~ .circle,
+#s2:checked ~ div div .indicator {
+  left: 0;
+}
+
+#s3:checked ~ [for="s3"] > img {
+  top: -85px;
+}
+#s3:checked ~ .circle,
+#s3:checked ~ div div .indicator {
+  left: 66%;
+}
+
+
+
+.banner-logo-item {
+  display: flex;
+  justify-content: center; /* Centro horizontalmente */
+  align-items: center; /* Centro verticalmente */
+  height: 100%; /* Ajusta según el tamaño de tu banner */
+}
+
+.banner-logo {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.banner-logo .logo {
+  max-width: 250px; /* Ajusta el tamaño máximo del logo según sea necesario */
+  border: 2px solid black; /* Añade un borde negro de 2 píxeles de grosor */
+  border-radius: 7px; /* Opcional: Bordes redondeados */
+}
+
+
+/* Estilos para el footer */
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 15px; /* Ajusta esta altura según sea necesario */
+  padding: 10px 0; /* Reduce el padding si es necesario */
+  position: relative;
+  width: 100%;
+  border-radius: 15px; /* Redondea las esquinas del banner */
+  border: 2px solid orange;
+  margin-top: 20px; /* Espacio superior para separar del contenido anterior */
+
+
+}
+
+
+footer p {
+  margin: 0; /* Elimina márgenes si es necesario */
+  line-height: 1.5; /* Ajusta el line-height para controlar el espacio vertical del texto */
+  font-size: 14px; /* Ajusta el tamaño de la fuente según tus necesidades */
+}
+
+@keyframes fire {
+  0% {
+    text-shadow: 0 0 2px #FF0000, 0 0 4px #FF0000, 0 0 6px #FF0000;
+    transform: translate(0, 0);
+  }
+  50% {
+    text-shadow: 0 0 20px #FF0000, 0 0 40px #FF0000, 0 0 60px #FF0000;
+    transform: translate(0, -20px);
+  }
+  100% {
+    text-shadow: 0 0 2px #FF0000, 0 0 4px #FF0000, 0 0 6px #FF0000;
+    transform: translate(0, 0);
+  }
+}
+
+#catering-quote,
+#additional-quote {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1;
+    min-width: 300px;
+}
+
+#catering-quote h2,
+#additional-quote h2 {
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+#catering-quote h2 {
+    color: #4CAF50;
+}
+
+#additional-quote h2 {
+    color: #FF5722;
+}
+
+#catering-quote p,
+#additional-quote p {
+    color: #555;
+    margin-bottom: 30px;
+}
+
+#catering-quote iframe,
+#additional-quote iframe {
+    border: 2px solid #4CAF50;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 800px;
+    height: 800px;
+}
+
+#additional-quote iframe {
+    border-color: #FF5722;
+}
+
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+/* 🔹 Estilos específicos para móviles (pantallas menores a 480px) */
+@media (max-width: 768px) {
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  /* Oculta en móviles */
+#div2 {
+  display: none;
+}
+
+/* Muestra solo en pantallas >=768px (como md: de Tailwind) */
+@media screen and (min-width: 768px) {
+  #div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Oculta en móviles */
+#div1 {
+  display: none;
+}
+
+/* Muestra solo en pantallas >=768px (como md: de Tailwind) */
+@media screen and (min-width: 768px) {
+  #div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+  
+  /* Ajuste del banner */
+  .banner {
+    width: 89vw; /* Asegura que no sobrepase el ancho de la pantalla */
+    height: auto;
+    max-height: 250px;
+    background-size: contain; /* Evita que la imagen de fondo se recorte */
+    background-position: center;
+    background-repeat: no-repeat; /* Evita que se repita la imagen */
+    overflow: hidden; /* Previene el desbordamiento */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  
+
+  /* Sección de reseñas */
+  .reviews-section {
+    background-color: #f8f8f8;
+    padding: 30px 10px; /* Reduce padding en móviles */
+    }
+
+  .container {
+    max-width: 100%; /* Ocupa todo el ancho disponible */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; /* Cambia a una sola columna en móviles */
+    align-items: center;
+    align-items: stretch; /* Asegura que los elementos internos ocupen toda la altura */
+    flex-direction: column; /* Apila los elementos en dispositivos móviles */
+
+
+  }
+
+  .reviews, 
+  .review-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* Asegura que el formulario llene el espacio */
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #560808;
+    max-height: 600px; /* Reduce altura máxima para móviles */
+    align-items: center;
+    
+  }
+   
+  /* Banner final */
+  .banner-final {
+    background-color: #f8f9fa;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Centrar contenido horizontalmente */
+    align-items: center; /* Centrar contenido verticalmente */
+    flex-direction: column; /* Alinear en columna en móviles */
+    border-radius: 10px;
+    border: 2px solid orange;
+    margin: 0 auto; /* Centra el banner horizontalmente */
+    width: 85%; /* Usa todo el ancho disponible */
+    max-width: 400px; /* Máximo ancho para que no se extienda demasiado */
+    
+  }
+
+  .banner-item {
+    width: 100%; /* Asegura que los elementos ocupen todo el ancho disponible */
+    text-align: center; /* Centra el texto */
+    margin-top: 10px;
+  }
+
+  .banner-address-info {
+    text-align: center;
+    margin: 10px auto; /* Centra el elemento horizontalmente */
+    width: 100%; /* Usa todo el ancho disponible */
+    max-width: 300px; /* Máximo ancho para evitar que se expanda demasiado */
+  }
+
+  .instagram-widget iframe {
+    width: 90%; /* Reduce el ancho para evitar que quede pegado a los bordes */
+    max-width: 100%; /* Asegura que no sobrepase el ancho del contenedor */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+    min-height: 300px; /* Mantiene una altura mínima para mejor visualización */
+    display: block; /* Asegura que no tenga espacios extra */
+    margin: 0 auto; /* Centra el iframe horizontalmente */
+  }
+
+  .phone {
+    display: flex;
+    justify-content: flex-start; /* Mueve el contenido hacia la izquierda */
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: -95px; /* Ajusta este valor según necesites */
+  }
+
+  .banner-logo-item {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100%; /* Ajusta según el tamaño de tu banner */
+    width: 100%; /* Asegura que ocupe todo el ancho del contenedor */
+    text-align: center; /* Asegura que el contenido interno esté centrado */
+  }
+
+  .love-banner {
+    background-color: #f2f2f2;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid #06ecfe;
+    border-radius: 15px;
+    width: 90%; /* Reduce el ancho para dejar espacio en los lados */
+    max-width: 400px; /* Limita el tamaño máximo */
+    margin: 0 auto; /* Centra el banner horizontalmente */
+    padding-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    animation: slideIn 1s ease-out, glow 2s ease-in-out infinite;
+  }
+
+  footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 15px; /* Esquinas redondeadas */
+    border: 2px solid orange; /* Borde naranja */
+    margin: 20px auto; /* Espaciado superior e inferior y centrado horizontalmente */
+    width: 75%; /* Reduce aún más el ancho para mayor separación en los lados */
+    max-width: 370px; /* Evita que el footer se expanda demasiado en pantallas grandes */
+    position: relative;
+    overflow: hidden; /* Evita desbordamientos */
+  }
+}

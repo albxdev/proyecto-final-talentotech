@@ -1,0 +1,1344 @@
+html, body {
+    margin: 0;
+    padding: 0 8px;
+    box-sizing: border-box;
+      overflow-x: hidden; /* evita scroll horizontal */
+    scroll-behavior: smooth;
+    width: 100%;
+    background:rgb(253, 250, 250);
+  }
+  
+  #main-content {
+    position: relative; /* Ajusta según sea necesario */
+    top: 190px; /* Prueba con valores negativos para subir el contenido */
+    /* O bien */
+    margin-top: 10px; /* Ajusta con un margen negativo para subir el contenido */
+  }
+  
+  #asado1{
+    
+    position:absolute;
+    left:-30px;
+    top:0px;
+    width:40px;
+    height:40px;
+    transform:rotate(45deg);
+    animation:b 6s infinite;
+  }
+  #asado2{
+    position:absolute;
+    left:200px;
+    top:-25px;
+    width:40px;
+    height:40px;
+    transform:rotate(45deg);
+    animation:a 6s infinite;
+  }
+  #asado3{
+    position:absolute;
+    left:585px;
+    top:5px;
+    width:40px;
+    height:40px;
+    transform:rotate(45deg);
+    animation:a 6s infinite;
+  }
+  #asado4{
+    position:absolute;
+    left:385px;
+    top:90px;
+    width:40px;
+    height:40px;
+    transform:rotate(45deg);
+    animation:b 6s infinite;
+  }
+  #asado5{
+    position:absolute;
+    left:60px;
+    top:140px;
+    width:25px;
+    height:25px;
+    transform:rotate(45deg);
+    animation:a 6s infinite;
+  }
+  #asado6{
+    position:absolute;
+    left:500px;
+    top:-25px;
+    width:25px;
+    height:25px;
+    transform:rotate(45deg);
+    animation:a 6s infinite;
+  }
+  #asado7{
+    position:absolute;
+    left:60px;
+    top:-55px;
+    width:25px;
+    height:25px;
+    transform:rotate(45deg);
+    animation:b 6s infinite;
+  }
+  #asado8{
+    position:absolute;
+    left:530px;
+    top:130px;
+    width:25px;
+    height:25px;
+    transform:rotate(45deg);
+    animation:a 6s infinite;
+  }
+  
+  #asado9 {
+    position: absolute;
+    left: -30px;
+    top: 0px;
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg);
+    animation: b 6s infinite;
+  }
+  
+  #asado10 {
+    position: absolute;
+    left: 200px;
+    top: -25px;
+    width: 40px;
+    height: 40px;
+    transform: rotate(45deg);
+    animation: a 6s infinite;
+  }
+  
+  
+  
+  
+  @keyframes a{
+    0%{
+      background:transparent;
+    }
+    50%{
+      background:darkorange;
+    }
+    100%{
+      background:transparent;
+    }
+  }
+  @keyframes b{
+    0%{
+      background:darkorange;
+    }
+    50%{
+      background:transparent;
+    }
+    100%{
+      background:darkorange;
+    }
+  }
+  #div1{
+    position:absolute;
+    left:calc(50% - 300px);
+    top:calc(50% - 150px);
+    width:600px;
+    height:100px;
+    border:20px solid rgb(60, 60, 60);
+    border-radius:100px;
+  
+  }
+  #div2{
+    position:absolute;
+    width:590px;
+    height:90px;
+    border:5px solid orange;
+    border-radius:100px;
+    background:orange;
+    transition:.6s;
+    
+    
+  }
+  #img1{
+    position:absolute;
+    left:40px;
+    top:10px;
+    width:60px;
+  }
+  #img2{
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:60px;
+  }
+  #img3{
+    position:absolute;
+    left:10px;
+    top:10px;
+    width:60px;
+  }
+  #img4 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 60px;
+  }
+  
+  
+  #home1{
+    position:absolute;
+    left:150px;
+    width:80px;
+    height:80px;
+    border:5px solid orange;
+    border-radius:100px;
+    background:orange;
+    transition:.6s;
+  
+  }
+  #home1:hover{
+    height:250px;
+  }
+  #home1:hover > #home1{
+    height:180px;
+    border:5px solid orange;
+  }
+  #homee1{
+    position:absolute;
+    top:-5px;
+    left:75px;
+    width:40px;
+    height:80px;
+    border:5px solid orange;
+    border-radius:100px;
+    background:orange;
+    transition:.6s;
+  }
+  #menu{
+    position:absolute;
+    left:300px;
+    width:80px;
+    height:80px;
+    border:5px solid orange;
+    border-radius:100px;
+    background:orange;
+    transition:.6s;
+  }
+  #menu:hover{
+    height:200px;
+  }
+  #menu:hover > #menu1{
+    height:230px;
+  }
+  #menu1{
+    position:absolute;
+    top:-5px;
+    left:-25px;
+    width:25px;
+    height:80px;
+    border:5px solid orange;
+    border-radius:100px;
+    background:orange;
+    transition:.6s;
+  }
+  #ordenar{
+    position:absolute;
+    left:450px;
+    width:80px;
+    height:80px;
+    border:5px solid orange;
+    border-radius:100px;
+    background:orange;
+    transition:.6s;
+  }
+  #ordenar:hover{
+    height:200px;
+  }
+  #ordenar:hover > #ordenar1{
+    height:200px;
+  }
+  #ordenar:hover > #ordenar2{
+    height:200px;
+  }
+  #ordenar1{
+    position:absolute;
+    top:-5px;
+    left:-50px;
+    width:40px;
+    height:80px;
+    border:5px solid orange;
+    border-radius:100px;
+    background:orange;
+    transition:.6s;
+  }
+  #ordenar2{
+    position:absolute;
+    top:-5px;
+    left:75px;
+    width:25px;
+    height:80px;
+    border:5px solid orange;
+    border-radius:100px;
+    background:orange;
+    transition:.6s;
+  }
+  
+  
+  #boton1{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size: 15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  
+  #home1:hover > #boton1{
+    top:90px;
+    color:black;
+    background: #FF0000; 
+    padding-bottom:5px;
+  }
+  #boton2{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #home1:hover > #boton2{
+    top:140px;
+    color:black;
+    background:dimgrey;
+    padding-bottom:5px;
+  }
+  #boton3{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #home1:hover > #boton3{
+    top:190px;
+    color:black;
+    background:dimgrey;
+    padding-bottom:5px;
+  }
+  #boton4{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #menu:hover > #boton4{
+    top:90px;
+    color:black;
+    background:dimgrey;
+    padding-bottom:5px;
+  }
+  #boton5{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #menu:hover > #boton5{
+    top:140px;
+    color:black;
+    background:dimgrey;
+    padding-bottom:5px;
+  }
+  #boton6{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #menu:hover > #boton6{
+    top:90px;
+    color:black;
+    background:dimgrey;
+    padding-bottom:5px;
+  }
+  #boton7{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #ordenar:hover > #boton7{
+    top:140px;
+    color:black;
+    background:dimgrey;
+    padding-bottom:5px;
+  }
+  #boton8{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #ordenar:hover > #boton8{
+    top:190px;
+    color:black;
+    background:dimgrey;
+    padding-bottom:5px;
+  }
+  
+  
+  #boton9{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #ordenar:hover > #boton9{
+    top:140px;
+    color:black;
+    background:dimgrey;
+    padding-bottom:5px;
+  }
+  #boton10{
+    position:absolute;
+    top:0px;
+    background:transparent;
+    width:75px;
+    color:transparent;
+    padding-top:5px;
+    padding-bottom:5px;
+    font-family:Georgia, serif;
+    font-size:15px;
+    border:2.5px solid transparent;
+    border-radius:100px;
+    cursor:pointer;
+    transition:.6s;
+  }
+  #ordenar:hover > #boton10{
+    top:190px;
+    color:black;
+    background:dimgrey;
+    padding-bottom:5px;
+  }
+  
+  
+  
+  /* Estilos para el banner */
+  .banner {
+  background-image: url('../assets/banner.jpg'); /* Ruta a tu imagen de banner */
+  background-size: cover;
+  background-position: center; /* Centra la imagen del banner */
+  height: 800px; /* Altura del banner */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 20px;
+  margin-bottom: 30px; /* Ajusta el valor según sea necesario */
+  border: 2px solid orange; 
+  border-radius: 15px; /* Redondea las esquinas del banner */
+  }
+  
+  
+  
+
+  
+  
+  /* Estilo general para los banners */
+  .bannertotal {
+  background-color: black; /* Fondo negro */
+  color: #FF0000; /* Color del texto rojo */
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  border: 2px solid #FF0000; /* Borde naranja */
+  }
+  
+  /* Efecto de animación de fuego */
+  @keyframes fire {
+  0% {
+      text-shadow: 0 0 2px #FF0000, 0 0 4px #FF0000, 0 0 6px #FF0000;
+      transform: translate(0, 0);
+  }
+  50% {
+      text-shadow: 0 0 20px #FF0000, 0 0 40px #FF0000, 0 0 60px #FF0000;
+      transform: translate(0, -20px);
+  }
+  100% {
+      text-shadow: 0 0 2px #FF0000, 0 0 4px #FF0000, 0 0 6px #FF0000;
+      transform: translate(0, 0);
+  }
+  }
+  
+  /* Estilos específicos para los elementos de texto dentro del banner */
+  
+  /* Efecto de fuego para <h1> */
+  .bannertotal h1 {
+  font-size: 38px; /* Tamaño del texto del título */
+  font-weight: bold; /* Texto en negrita */
+  color: #FF0000; /* Color del texto rojo para el efecto de fuego */
+  animation: fire 2s infinite alternate;
+  margin: 0; /* Ajustar margen según sea necesario */
+  
+  }
+  
+  /* Efecto de fuego para <h2> */
+  .bannertotal h2 {
+  font-size: 20px; /* Tamaño del texto del subtítulo */
+  font-weight: bold; /* Texto en negrita */
+  color: #FF0000; /* Color del texto rojo para el efecto de fuego */
+  animation: fire 2s infinite alternate;
+  margin: 0; /* Ajustar margen según sea necesario */
+  }
+  
+  /* Efecto de fuego para <p> */
+  .bannertotal p {
+  font-size: 18px; /* Tamaño del texto del párrafo */
+  color: #FF0000; /* Color del texto rojo para el efecto de fuego */
+  animation: fire 2s infinite alternate;
+  margin: 0; /* Ajustar margen según sea necesario */
+  }
+
+  .menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Asegura que las imágenes se acomoden en filas de 250px */
+  gap: 20px;
+  padding: 20px;
+}
+
+.menu-item {
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra todo en la columna */
+}
+
+.menu-image {
+  width: 100%;
+  height: 200px; /* Ajuste para que las imágenes sean del mismo tamaño */
+  object-fit: cover;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.menu-item:hover .menu-image {
+  transform: scale(1.1); /* Efecto de zoom al pasar el ratón */
+}
+
+.menu-actions {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between; /* Alinea los botones en fila */
+  width: 100%; /* Hace que los botones ocupen todo el espacio disponible */
+  gap: 10px;
+}
+
+.favorite-btn,
+.cart-btn,
+.buy-btn {
+  background-color: #ff5c5c;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%; /* Asegura que los botones tengan el mismo tamaño */
+  font-size: 14px;
+}
+
+.favorite-btn {
+  background-color: white; /* Fondo blanco para el botón del corazón */
+  color: #ff5c5c; /* Color rojo para el icono */
+  padding: 12px; /* Tamaño del botón */
+  font-size: 18px; /* Tamaño del icono */
+  border-radius: 50%; /* Botón redondeado */
+  border: 2px solid #ff5c5c; /* Borde rojo */
+}
+
+.favorite-btn:hover {
+  background-color: #ff2b2b;
+  color: white;
+}
+
+.favorite-btn.favorited {
+  color: red;
+}
+
+.cart-btn.in-cart {
+  background-color: #28a745;
+}
+
+.cart-btn:hover,
+.buy-btn:hover,
+.favorite-btn:hover {
+  background-color: #ff2b2b;
+}
+
+  
+  
+  
+  
+  
+  .feedback-banner {
+  
+  }
+  
+  .feedback-banner h2 {
+  
+  }
+  
+  .feedback-banner p {
+  
+  }
+  
+  
+  
+  
+  
+  .location-banner {
+  
+  }
+  
+  .location-banner h2 {
+  
+  }
+  
+  .location-banner p {
+  
+  }
+  
+ 
+  
+  /* Estilos del banner */
+  .love-banner {
+  background-color: #f2f2f2;
+  color: #333;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  border-top: 2px solid #ccc;
+  margin-top: 20px; /* Espacio entre el banner de Google Maps y este banner */
+  border-radius: 15px; /* Redondea las esquinas del banner */
+  margin-bottom: 20px; /* Espacio inferior para separar del contenido siguiente */
+  border: 2px solid #06ecfe; /* Borde con el color #06ecfe */
+  padding-bottom: 20px; /* Espacio entre el texto y el borde inferior */
+  position: relative; /* Para posicionar el pulso del corazón */
+  overflow: hidden; /* Asegura que el pulso del corazón no se desborde */
+  animation: slideIn 1s ease-out, glow 2s ease-in-out infinite; /* Añadido efecto de entrada y resplandor */
+  }
+  
+  /* Estilos de la imagen del corazón */
+  .love-banner .heart-icon {
+  vertical-align: middle; /* Alinea la imagen con el texto */
+  width: 20px; /* Ajusta el tamaño de la imagen según sea necesario */
+  height: auto;
+  margin: 0 5px; /* Espacio alrededor de la imagen */
+  animation: pulse 1.5s infinite; /* Animación de pulso */
+  }
+  
+  /* Animación de pulso del corazón */
+  @keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.2); /* Aumenta el tamaño del corazón */
+    opacity: 0.8; /* Reduce la opacidad para un efecto más suave */
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  }
+  
+  /* Animación de entrada del banner */
+  @keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  }
+  
+  /* Animación de resplandor */
+  @keyframes glow {
+  0% {
+    text-shadow: 0 0 5px #06ecfe, 0 0 10px #06ecfe, 0 0 15px #06ecfe, 0 0 20px #06ecfe;
+  }
+  50% {
+    text-shadow: 0 0 10px #06ecfe, 0 0 20px #06ecfe, 0 0 30px #06ecfe, 0 0 40px #06ecfe;
+  }
+  100% {
+    text-shadow: 0 0 5px #06ecfe, 0 0 10px #06ecfe, 0 0 15px #06ecfe, 0 0 20px #06ecfe;
+  }
+  }
+  
+  
+  
+  
+  
+  .banner-final {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  border-radius: 15px;
+  border: 2px solid orange; /* Cambiado a border-top para mayor visibilidad */
+  margin-bottom: 1px; /* Espacio inferior para separar del contenido siguiente */
+  
+  }
+  
+  
+  
+  .banner-item {
+  margin-top: 10px;
+  text-align: center;
+  }
+  
+  .reservas-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  border: 2px solid #0f0f0f; /* Borde inicial */
+  border-radius: 5px;
+  color: #000; /* Color inicial del texto */
+  transition: color 0.3s, border-color 0.3s; /* Transiciones suaves */
+  margin-top: 10px; /* Ajusta este valor según sea necesario para mover el botón hacia abajo */
+  
+  }
+  
+  .reservas-btn:hover {
+  color: #ff6600; /* Cambio de color al pasar el cursor */
+  border-color: #ff6600; /* Cambia el color del borde al pasar el cursor */
+  }
+  
+  .reservas-link {
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  color: inherit; /* Hereda el color del texto del elemento padre */
+  transition: color 0.3s ease; /* Transición suave del color al pasar el cursor */
+  }
+  
+  .reservas-link:hover {
+  color: #ff6600; /* Cambio de color al pasar el cursor */
+  }
+  
+  
+  
+  .banner-contact {
+  text-align: center;
+  margin-top: 10px;
+  }
+  
+  .banner-contact p {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .banner-contact p img {
+  max-width: 70px; /* Reducido el tamaño de la imagen */
+  margin-right: 5px;
+  }
+  
+  
+  
+  .address-info {
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 50px; /* Ajusta el margen izquierdo automáticamente */
+  margin-right: auto; /* Ajusta el margen derecho automáticamente */
+  width: fit-content; /* Ajusta el ancho del contenedor al contenido */
+  }
+  
+  .banner-address-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+  
+  .address-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  }
+  
+  
+  .phone-container {
+  display: flex; /* Usa flexbox para manejar el alineamiento y distribución */
+  justify-content: flex-end; /* Alinea el contenedor de las redes sociales a la derecha */
+  padding: 10px; /* Espacio alrededor del contenedor */
+  margin-top: -100px; /* Ajusta este valor según sea necesario para subir el contenedor */
+  margin-left: 80px; /* Ajusta este valor según sea necesario para mover el contenedor hacia la derecha */
+  
+  }
+  
+  .phone {
+  width: 320px;
+  height: 260px;
+  margin: fixed;
+  display: flex;
+  align-items: flex-end;
+  position: relative;
+  justify-content: center;
+  margin-top: -30px;
+  
+  }
+  .phone::before {
+  content: '';
+  position: absolute;
+  width: 84%;
+  height: 0px;
+  bottom: -10px;
+  box-shadow: 0 0 25px 9px rgba(255, 0, 0, 0.33), 50px 10px 25px 8px rgba(18, 255, 0, 0.33), -40px 8px 25px 9px rgba(242, 255, 0, 0.33);
+  left: 0;
+  right: 0;
+  margin: auto;
+  }
+  .phone::after {
+  content: '';
+  }
+  .phone_content {
+  filter: contrast(20);
+  width: 100%;
+  background-color: white;
+  overflow: hidden;
+  position: absolute;
+  }
+  .phone_bottom {
+  width: 100%;
+  height: 66px;
+  background: black;
+  display: flex;
+  justify-content: center;
+  filter: blur(10px);
+  }
+  
+  .phone input[type="radio"] {
+    display: none;
+  }
+  
+  .phone .phone-label {
+  cursor: pointer;
+  display: flex;
+  width: 33%;
+  height: 66px;
+  position: relative;
+  z-index: 2;
+  align-items: center;
+  justify-content: center;
+  
+  }
+  .phone .phone-label > img {
+  width: 25px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  z-index: 3;
+  transition: 200ms 100ms cubic-bezier(0.14, -0.08, 0.74, 1.4);
+  
+  }
+  .phone .phone-label::before {
+  content: '';
+  position: absolute;
+  }
+  
+  .phone-label a {
+  display: inline-block; /* Permite que el enlace actúe como contenedor de la imagen */
+  width: 30%;
+  height: 30%;
+  }
+  
+  
+  
+  
+  .circle {
+  width: 60px;
+  height: 60px;
+  background: black;
+  position: absolute;
+  top: 152px;
+  z-index: 1;
+  border-radius: 50%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transition: transform 200ms cubic-bezier(0.14, -0.08, 0.74, 1.4);
+  box-shadow: 0px 82px 20px 0px rgba(128, 128, 128, 0.29);
+  }
+  
+  .indicator { 
+  width: 70px;
+  height: 70px;
+  background-image: linear-gradient(0deg, #f7b0b0, rgba(183, 255, 154, 0)), linear-gradient(0deg, rgba(158, 255, 151, 0.75), rgba(183, 255, 154, 0)), linear-gradient(0deg, #b4fffb, rgba(183, 255, 154, 0));
+  background-size: cover;
+  background-position: 0 10px;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: -42px;
+  right: 0;
+  margin: auto;
+  transition: transform 200ms cubic-bezier(0.14, -0.08, 0.74, 1.4);
+  }
+  
+  #s1:checked ~ .phone-label[for="s1"] > img
+  {
+  top: -85px;
+  }
+  #s1:checked ~ .circle,
+  #s1:checked ~ div div .indicator {
+  left: -66%;
+  }
+  
+  #s2:checked ~ [for="s2"] > img {
+  top: -85px;
+  }
+  #s2:checked ~ .circle,
+  #s2:checked ~ div div .indicator {
+  left: 0;
+  }
+  
+  #s3:checked ~ [for="s3"] > img {
+  top: -85px;
+  }
+  #s3:checked ~ .circle,
+  #s3:checked ~ div div .indicator {
+  left: 66%;
+  }
+  
+  
+  
+  
+  .banner-logo-item {
+  display: flex;
+  justify-content: center; /* Centro horizontalmente */
+  align-items: center; /* Centro verticalmente */
+  height: 100%; /* Ajusta según el tamaño de tu banner */
+  }
+  
+  .banner-logo {
+  text-align: center;
+  margin-top: 50px;
+  }
+  
+  .banner-logo .logo {
+  max-width: 250px; /* Ajusta el tamaño máximo del logo según sea necesario */
+  border: 2px solid black; /* Añade un borde negro de 2 píxeles de grosor */
+  border-radius: 7px; /* Opcional: Bordes redondeados */
+  }
+  
+  /* Estilos para el footer */
+  footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 15px; /* Ajusta esta altura según sea necesario */
+  padding: 10px 0; /* Reduce el padding si es necesario */
+  position: relative;
+  width: 100%;
+  border-radius: 15px; /* Redondea las esquinas del banner */
+  border: 2px solid orange;
+  margin-top: 20px; /* Espacio superior para separar del contenido anterior */
+  margin: 0 auto; /* centra horizontalmente */
+  
+  
+  
+  }
+  
+  
+  footer p {
+  margin: 0; /* Elimina márgenes si es necesario */
+  line-height: 1.5; /* Ajusta el line-height para controlar el espacio vertical del texto */
+  font-size: 14px; /* Ajusta el tamaño de la fuente según tus necesidades */
+  transform: translateY(-5px); /* Sube el texto 5px */
+  
+  }
+  
+  @keyframes fire {
+  0% {
+    text-shadow: 0 0 2px #FF0000, 0 0 4px #FF0000, 0 0 6px #FF0000;
+    transform: translate(0, 0);
+  }
+  50% {
+    text-shadow: 0 0 20px #FF0000, 0 0 40px #FF0000, 0 0 60px #FF0000;
+    transform: translate(0, -20px);
+  }
+  100% {
+    text-shadow: 0 0 2px #FF0000, 0 0 4px #FF0000, 0 0 6px #FF0000;
+    transform: translate(0, 0);
+  }
+  }
+  
+  .mobile-social-icons {
+    display: none;
+  }
+  
+  
+  
+  @media (max-width: 480px) {
+    
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden; /* evita scroll horizontal */
+      scroll-behavior: smooth;
+      width: 100%;
+      background:rgb(253, 250, 250);
+    }
+    /* Ocultar elementos no esenciales */
+    #div1, #div2,
+    .google-signin-container {
+      display: none;
+    }
+  
+    /* Banner principal con imagen de fondo */
+    .banner {
+      height: 400vh; /* Ajusta la altura para pantallas más pequeñas */
+      width: calc(100% - 32px); /* Ajusta el ancho con márgenes laterales */
+      margin: 16px auto;
+      padding: 0;
+      border: 2px solid orange;
+      border-radius: 15px;
+      background-image: url('../assets/banner.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 250px;
+      display: block;
+      box-sizing: border-box;
+      background-size: cover;
+      background-position: center;
+    }
+  
+    /* Caja negra con borde rojo */
+    .bannertotal {
+      background-color: black;
+      color: #FF0000;
+      text-align: center;
+      padding: 15px;
+      margin: 30px 16px 40px;
+      border-radius: 15px;
+      border: 2px solid #FF0000;
+      box-sizing: border-box;
+    }
+  
+    .instagram-widget iframe {
+      width: 100%;
+      height: auto;
+      min-height: 300px;
+      display: block;
+      margin: 0 auto;
+    }
+  
+  
+    /* Sección de reseñas */
+    .reviews-section {
+      background-color: #f8f8f8;
+      padding: 30px 16px;
+    }
+  
+    .container {
+      max-width: 100%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+  
+    .reviews,
+  .review-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #560808;
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;   /* ✅ garantiza que padding y border se incluyan en el ancho total */
+    margin-right: auto;
+    margin: 0 auto;
+  
+  }
+  
+  .review-form {
+    width: 100%;
+    max-width: 700px; /* o el valor que prefieras */
+    box-sizing: border-box;
+  }
+  
+    .image-container {
+      display: none;
+  
+    }
+  
+    .love-banner {
+      background-color: #f2f2f2;
+      color: #333;
+      text-align: center;
+      padding: 20px 16px 20px; /* Ajusta el padding */
+      font-size: 18px;
+      border: 2px solid #06ecfe;
+      border-radius: 15px;
+      width: calc(100% - 32px);
+      max-width: 400px;
+      margin: 0 auto;
+      margin-bottom: 20px; /* Agrega espacio debajo de .love-banner */
+      position: relative;
+      overflow: hidden;
+      animation: slideIn 1s ease-out, glow 2s ease-in-out infinite;
+      margin-bottom: 20px; /* Aumentamos el margen inferior para separar los banners */
+  
+    }
+  
+    /* Banner final */
+    .banner-final {
+      background-color: #f8f9fa;
+      padding: 20px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      border-radius: 10px;
+      border: 2px solid orange;
+      margin: 0 auto;
+      width: calc(100% - 32px);
+      max-width: 400px;
+      margin-top: 40px; /* Aumentamos el margen superior para el banner final */
+      margin: 20px auto; /* Añade margen arriba y abajo */
+    }
+  
+   
+  
+    .address-info {
+      text-align: center; /* Asegura que el texto dentro de .address-info esté centrado */
+      margin-top: 10px;
+      margin-left: 0;
+      margin-right: 0;
+      width: 100%;
+  }
+  
+  .banner-address-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Centra los elementos hijos en el eje horizontal */
+      justify-content: center; /* Centra los elementos hijos en el eje vertical */
+      padding: 0 15px;
+      width: 100%; /* Asegura que ocupe todo el ancho disponible */
+  
+  }
+  
+  .address-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    text-align: center;
+    width: 100%;
+    margin-left: 10px; /* Mueve el texto hacia la derecha */
+    margin-bottom: 10px; /* Espacio entre el h3 y los p */
+  
+  
+  }
+  
+  .address-info p {
+    font-size: 1rem;
+    margin-top: 5px;
+    text-align: center;
+    width: 100%;
+    margin-left: 10px; /* Mueve el primer párrafo a la derecha */
+    margin-top: 0; /* Elimina cualquier margen superior de los p si es necesario */
+  
+  
+  }
+  
+  .address-info p:nth-child(2) {
+    margin-top: 5px;
+    text-align: center;
+    width: 100%;
+    margin-left: 10px; /* Mueve el segundo párrafo a la derecha */
+  }
+  
+  
+  
+    
+    .phone-container {
+      display: none !important;
+    }
+  
+    .phone {
+      display: none !important;
+    }
+  
+    .banner-contact {
+      text-align: center;
+      margin-top: 10px;
+    }
+  
+   
+  
+    .banner-logo-item {
+      display: flex;
+      justify-content: center; /* Centro horizontalmente */
+      align-items: center; /* Centro verticalmente */
+      height: auto; /* Ajusta el alto al contenido */
+    }
+  
+    .banner-logo {
+      text-align: center;
+      margin-top: 30px; /* Reduce el margen superior en pantallas más pequeñas */
+    }
+  
+    .banner-logo .logo {
+      max-width: 180px; /* Reduce el tamaño máximo del logo para pantallas pequeñas */
+      width: 100%; /* Asegura que el logo no se desborde */
+      border: none; /* Elimina el borde en pantallas pequeñas (opcional) */
+    }
+  
+    .mobile-social-icons {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      font-size: 28px;
+      margin: 25px auto;
+      color: #ff6600;
+    }
+  
+    .mobile-social-icons a {
+      color: #ff6600;
+      text-decoration: none;
+      transition: transform 0.3s;
+    }
+  
+    .mobile-social-icons a:hover {
+      transform: scale(1.2);
+    }
+    
+  
+    .banner-logo-item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      text-align: center;
+    }
+  
+    
+    footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 16px;
+      border-radius: 15px;
+      border: 2px solid orange;
+      margin: 20px auto;
+      width: 100%;
+      max-width: none;
+      position: relative;
+      overflow: hidden;
+      align-items: flex-start; /* Mueve el contenido hacia arriba */
+  
+    }
+    footer p {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    padding-top: 0; /* Elimina espacio superior */
+    transform: translateY(-5px); /* Sube el texto 5px */
+  
+  }
+  }
+  
+  
